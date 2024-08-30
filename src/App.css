@@ -22,7 +22,7 @@ html,body{
     color: rgb(69, 69, 232);
 }
 
-@media (width<500px) {
+@media (width<600px) {
     .container>img{
         display: none;
     }    
