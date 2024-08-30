@@ -1,0 +1,42 @@
+@font-face {
+    font-family: poppin;
+    src: url(./assets/Poppins-Regular.ttf);
+}
+html,body{
+    font-family: poppin;
+}
+
+.enable{
+    background: green;
+    color: white;
+    border: white;
+    opacity: 1;
+}
+.disable{
+    background-color: red;
+    color: white;
+    border: white;
+    opacity: 0.4;
+}
+.link{
+    color: rgb(69, 69, 232);
+}
+
+@media (width<500px) {
+    .container>img{
+        display: none;
+    }    
+    .registration{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.443),rgba(0, 0, 0, 0.491)),url(./assets/image.png);
+        width: 100%;
+        height: 100vh;
+        color: white;
+    }
+    .link{
+        color: white;
+        text-decoration: underline;
+    }
+    .registration input{
+        color: black;
+    }
+}
